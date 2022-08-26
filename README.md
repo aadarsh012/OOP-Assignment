@@ -13,7 +13,7 @@ LAB assignment and Notes of Object Oriented Programming.
 * Check if `JAVA` installed successfully or not.
 
   ```bash
-  flex --version # version check
+  javac --version # version check
   ```
 
 * Open Terminal. (Press `Ctrl + Alt + t`)
