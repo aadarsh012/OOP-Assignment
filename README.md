@@ -51,11 +51,21 @@ LAB assignment and Notes of Object Oriented Programming.
 
 * ### Question-01
 
+  Find the greatest of three numbers.
+
 * ### Question-02
+  
+  Arrange String in Ascending Order.
 
 * ### Question-03
 
+  Factorial
+
 * ### Question-04
+
+  Array List
+
+* ### Question-05
   
   Define a class ArrayList and its members are :-
 
@@ -85,7 +95,7 @@ LAB assignment and Notes of Object Oriented Programming.
   5 -> exit()
   ```
 
-* ### Question-05
+* ### Question-06
 
   Define a class StackList which contains following variables and methods. All variables and methods are : `top`, `size`, `st[]`
 
