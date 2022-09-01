@@ -59,7 +59,7 @@ LAB assignment and Notes of Object Oriented Programming.
 
 * ### Question-03
 
-  Factorial
+  Factorial of a given number.
 
 * ### Question-04
 
@@ -116,3 +116,45 @@ LAB assignment and Notes of Object Oriented Programming.
   3 -> display()
   4 -> exit()
   ```
+
+* ### Question-07
+
+  Define a class pattern in C++. Data members in pattern class is :-
+  
+  `n = number of line`
+
+  Methods / Patterns in class are :-
+
+  a.  `set()` to initialize the value of n.
+
+  b. `pattern()` prints the following 3 patterns in a menu driven program.
+  
+  ```
+  *
+  * *
+  * * *
+  * * * *
+  * * * * *
+  ```
+
+  ```
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+  ```
+
+  ```
+        *
+       * *
+      * * *
+     * * * *
+      * * *
+       * *
+        *
+  ```
+
+* ### Question-08
+
+  Addition and Multiplication of a Complex Number.
