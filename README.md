@@ -158,3 +158,11 @@ LAB assignment and Notes of Object Oriented Programming.
 * ### Question-08
 
   Addition and Multiplication of a Complex Number.
+
+* ### Question-09
+
+  Overload `+` & `*` operators for matrix addition & multiplication where each matrix is an object of user defined class **Matrix**.
+
+* ### Question-10
+
+  Overload `+` & `*` operators for matrix addition & matrix multiplication using **Friend** function.

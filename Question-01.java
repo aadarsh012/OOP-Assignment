@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GreatestofThreeNumbers {
+class GreatestofThreeNumbers {
 
     public static Scanner sc = new Scanner(System.in);
 
