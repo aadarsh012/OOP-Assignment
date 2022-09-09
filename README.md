@@ -166,3 +166,21 @@ LAB assignment and Notes of Object Oriented Programming.
 * ### Question-10
 
   Overload `+` & `*` operators for matrix addition & matrix multiplication using **Friend** function.
+
+* ### Question-11
+
+  Create a class student 
+  Attributes are :-
+
+    name,
+    roll,
+    department,
+    avarage marks
+
+  **NOTE :-** All members are private
+  
+  Create another class statements
+  1. List of 
+
+
+* ### Question-12

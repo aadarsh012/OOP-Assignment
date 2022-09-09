@@ -43,46 +43,46 @@ public:
 
     friend Matrix operator+(Matrix obj1, Matrix obj2);
     friend Matrix operator*(Matrix obj1, Matrix obj2);
-
-    friend Matrix operator+(Matrix obj1, Matrix obj2)
-    {
-        Matrix temp;
-
-        temp.row = obj1.row;
-        temp.column = obj1.column;
-
-        for (int i = 0; i < obj1.row; i++)
-        {
-            for (int j = 0; j < obj1.column; j++)
-            {
-                temp.m[i][j] = obj1.m[i][j] + obj2.m[i][j];
-            }
-        }
-
-        return temp;
-    }
-
-    friend Matrix operator*(Matrix obj1, Matrix obj2)
-    {
-        Matrix temp(obj1.row, obj2.column);
-
-        temp.row = obj1.row;
-        temp.column = obj1.column;
-
-        for (int i = 0; i < temp.row; i++)
-        {
-            for (int j = 0; j < temp.column; j++)
-            {
-                for (int k = 0; k < temp.column; k++)
-                {
-                    temp.m[i][j] = temp.m[i][j] + obj1.m[i][k] + obj2.m[k][j];
-                }
-            }
-        }
-
-        return temp;
-    }
 };
+
+Matrix operator+(Matrix obj1, Matrix obj2)
+{
+    Matrix temp;
+
+    temp.row = obj1.row;
+    temp.column = obj1.column;
+
+    for (int i = 0; i < obj1.row; i++)
+    {
+        for (int j = 0; j < obj1.column; j++)
+        {
+            temp.m[i][j] = obj1.m[i][j] + obj2.m[i][j];
+        }
+    }
+
+    return temp;
+}
+
+Matrix operator*(Matrix obj1, Matrix obj2)
+{
+    Matrix temp(obj1.row, obj2.column);
+
+    temp.row = obj1.row;
+    temp.column = obj1.column;
+
+    for (int i = 0; i < temp.row; i++)
+    {
+        for (int j = 0; j < temp.column; j++)
+        {
+            for (int k = 0; k < temp.column; k++)
+            {
+                temp.m[i][j] = temp.m[i][j] + obj1.m[i][k] + obj2.m[k][j];
+            }
+        }
+    }
+
+    return temp;
+}
 
 int main()
 {
