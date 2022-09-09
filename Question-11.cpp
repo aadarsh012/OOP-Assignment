@@ -16,6 +16,10 @@ public:
 
         cout << "Roll : ";
         cin >> roll;
+        cout << "Department : ";
+        cin >> dept;
+        cout << "Avarage Marks : ";
+        cin >> avgMarks;
     }
 
     void display()
@@ -30,13 +34,13 @@ public:
 class StudentList
 {
     int size;
-    Student *list;
+    Student **list;
 
 public:
     StudentList(int n)
     {
         size = n;
-        list = new Student[size];
+        list = new Student*[size];
     }
 
     void input()
@@ -58,5 +62,13 @@ public:
 
 int main()
 {
+    int n;
+    cout << "Enter the no. of students : ";
+    cin >> n;
+
+    StudentList st(n);
+    st.input();
+    st.output();
+
     return 0;
 }
