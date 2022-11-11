@@ -184,3 +184,35 @@ LAB assignment and Notes of Object Oriented Programming.
 
 
 * ### Question-12
+
+  Define a class `Employees` :-
+  The attributes are :
+  1. Name
+  2. Age
+  3. Salary
+
+  Define a class `EmployeeList` that contains a set of methods operate these variables like 
+  1. display all records
+  2. Search a particular records
+  3. Initialze all records etc.
+
+  Here all Employee records should be maintained by **Linked List**.
+
+
+* ### Question-13
+
+  1. Define class Stack(abstract)
+     
+     Attributes are :-
+
+     ```
+     size is an int variable
+     list[] is an array of int
+     top is an int variable
+     push()
+     pop()
+     display()
+     ```
+
+
+  2. Inherite Stack class into **Simple Stack** & **Growable Stack** class and perform `push`, `pop` & `display` operation concurrently on ***Simple Stack Class Object*** & ***Growble Stack Class Object***.
