@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayList {
+class ArrayList {
 
     public static Scanner sc = new Scanner(System.in);
 

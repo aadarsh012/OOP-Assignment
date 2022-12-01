@@ -67,7 +67,7 @@ class StackDemo {
 
         int flag = 1;
 
-        System.out.println("Enter '1' for input, '2' for output, '3 for search, '4' for sort, '5' for exit");
+        System.out.println("Enter '1' for input, '2' for output, '3 for search, Press any for exit");
 
         while (flag == 1) {
 
