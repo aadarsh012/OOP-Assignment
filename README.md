@@ -201,18 +201,47 @@ LAB assignment and Notes of Object Oriented Programming.
 
 * ### Question-13
 
-  1. Define class Stack(abstract)
+  * Define class Stack(abstract)
      
-     Attributes are :-
+    Attributes are :-
 
-     ```
-     size is an int variable
-     list[] is an array of int
-     top is an int variable
-     push()
-     pop()
-     display()
-     ```
+    ```
+    size is an int variable
+    list[] is an array of int
+    top is an int variable
+    push()
+    pop() 
+    display()
+    ```
 
 
-  2. Inherite Stack class into **Simple Stack** & **Growable Stack** class and perform `push`, `pop` & `display` operation concurrently on ***Simple Stack Class Object*** & ***Growble Stack Class Object***.
+  * Inherite Stack class into **Simple Stack** & **Growable Stack** class and perform `push`, `pop` & `display` operation concurrently on ***Simple Stack Class Object*** & ***Growble Stack Class Object***.
+
+* ### Question-14
+
+  Write a program to implement the ***Multiple Inheritence***.
+
+
+* ### Question-15
+
+  Write a program to display different access controls.
+
+
+* ### Question-16
+
+  Define two classes in package p1 :-
+
+  * Array class :- `input()`, `output()`.
+  * Linked List class :- `create()`, `display()`.
+
+  Define Array class and Linked List classes for different packages.
+
+
+* ### Question-17
+
+  Define user define exception classes :-
+
+  * `OverflowException`
+  * `UnderflowException`
+
+  Define `push()`, `pop()`, where the array representation of stack is `Overflow` then `push()` throw `OverflowExceptionObject` and when stack is underflow then `pop()` throw `UnderflowExceptionObject`.
