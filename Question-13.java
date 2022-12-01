@@ -64,13 +64,13 @@ class growable_stack extends stack {
 
 class simple_stack extends stack {
 
+    public Scanner sc = new Scanner(System.in);
+
     simple_stack(int n) {
         super(n);
     }
 
     void push() {
-        Scanner sc;
-        sc = new Scanner(System.in);
 
         if (top == size - 1) {
             System.out.println("Overflow");
@@ -97,11 +97,11 @@ class stackDemo {
             System.out.println("1. for growable stack\n2. for simple stack\nSelect : ");
             ch = sc.nextInt();
 
-            if(ch == 1) {
+            if (ch == 1) {
                 ref = g1;
             }
 
-            else if(ch == 2){
+            else if (ch == 2) {
                 ref = s1;
             }
 
@@ -113,7 +113,7 @@ class stackDemo {
             System.out.println("1. for push\n2. for pop\n3. for display\n 0. for exit\nSelect : ");
             ch = sc.nextInt();
 
-            switch(ch) {
+            switch (ch) {
                 case 1:
                     ref.push();
                     break;

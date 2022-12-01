@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 class Employee {
 
+    public Scanner sc = new Scanner(System.in);
+
     public String name;
     public int age;
     public double salary;
@@ -43,8 +45,6 @@ class Employee_List {
         int a;
         double d;
         int choice;
-
-        Scanner sc = new Scanner(System.in);
 
         Employee ptr = start;
 
