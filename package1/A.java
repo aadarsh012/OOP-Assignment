@@ -1,4 +1,4 @@
-package p1;
+package package1;
 
 public class A {
 

@@ -1,3 +1,15 @@
+// Define class Stack(abstract)
+
+// Attributes are :-
+
+// size is an int variable
+// list[] is an array of int
+// top is an int variable
+// push()
+// pop() 
+// display()
+// Inherite Stack class into Simple Stack & Growable Stack class and perform push, pop & display operation concurrently on Simple Stack Class Object & Growble Stack Class Object.
+
 import java.util.Scanner;
 
 abstract class stack {

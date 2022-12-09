@@ -1,3 +1,20 @@
+// Define a class ArrayList and its members are :-
+
+// a. Variables :-
+
+// int arr[] reference variable
+// int size
+// Both variables numbers are static.
+
+// b. Create a static block which initializes the size of the array anf=d reserves space for array.
+
+// c. Define static methods for following operations :-
+
+// input() for filling array
+// output() for displaying elements in array
+// search() for aearching an item in array
+// sort() for arranging all elements in array in ascending order.
+
 import java.util.Scanner;
 
 class ArrayList {

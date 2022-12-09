@@ -1,3 +1,5 @@
+// Overload + & * operators for matrix addition & multiplication where each matrix is an object of user defined class Matrix.
+
 #include <iostream>
 using namespace std;
 

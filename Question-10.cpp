@@ -1,3 +1,5 @@
+// Overload + & * operators for matrix addition & matrix multiplication using Friend function.
+
 #include <iostream>
 using namespace std;
 

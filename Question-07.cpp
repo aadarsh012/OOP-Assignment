@@ -1,3 +1,32 @@
+
+// Define a class pattern in C++. Data members in pattern class is :-
+
+// n = number of line
+
+// Methods / Patterns in class are :-
+
+// a. set() to initialize the value of n.
+
+// b. pattern() prints the following 3 patterns in a menu driven program.
+
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * *
+//       *
+//      * *
+//     * * *
+//    * * * *
+//     * * *
+//      * *
+//       *
+
 #include <iostream>
 using namespace std;
 

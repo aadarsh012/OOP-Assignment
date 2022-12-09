@@ -1,3 +1,15 @@
+// Define a class Employees :- The attributes are :
+
+// Name
+// Age
+// Salary
+// Define a class EmployeeList that contains a set of methods operate these variables like
+
+// display all records
+// Search a particular records
+// Initialze all records etc.
+// Here all Employee records should be maintained by Linked List.
+
 #include <iostream>
 using namespace std;
 
@@ -60,7 +72,7 @@ public:
 
         size++;
     }
-    
+
     void printEmployeeList()
     {
         Employee *temp = head;
@@ -101,7 +113,7 @@ int main()
     EmployeeList *e = new EmployeeList;
 
     e->addEmployee();
-    
+
     int choice;
 
     while (true)

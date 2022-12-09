@@ -1,3 +1,5 @@
+//Write a program to implement the Multiple Inheritence.
+
 interface A {
 
     final static int a = 10;

@@ -1,3 +1,9 @@
+// Create a class student Attributes are :-
+
+// name, roll, department, avarage marks
+
+// NOTE :- All members are private
+
 #include <iostream>
 using namespace std;
 
@@ -40,7 +46,7 @@ public:
     StudentList(int n)
     {
         size = n;
-        list = new Student*[size];
+        list = new Student *[size];
     }
 
     void input()

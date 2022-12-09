@@ -1,6 +1,6 @@
-package p2;
 
-import p1.A;
+//Write a program to display different access controls.
+import package1.A;
 
 class D extends A {
 

@@ -1,3 +1,21 @@
+
+// Define a class StackList which contains following variables and methods. All variables and methods are : top, size, st[]
+
+// Methods are :-
+
+// set() which initializes top, size, and st
+// push()
+// pop()
+// display()
+// Now create another class StackDemo which contains main(). The main() access all these methods defined in StackList.
+
+// Write a menu driven program to implement the following operations :-
+
+// 1 -> push()
+// 2 -> pop()
+// 3 -> display()
+// 4 -> exit()
+
 import java.util.Scanner;
 
 class StackList {

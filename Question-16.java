@@ -1,9 +1,13 @@
-package p2;
+// Define two classes in package p1 :-
+
+// Array class :- input(), output().
+// Linked List class :- create(), display().
+// Define Array class and Linked List classes for different packages.
 
 import java.util.Scanner;
 
-import p1.Array;
-import p1.LinkedList;
+import package1.Array;
+import package1.LinkedList;
 
 class List {
 

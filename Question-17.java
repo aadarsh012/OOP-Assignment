@@ -1,3 +1,9 @@
+//Define user define exception classes :-
+
+// OverflowException
+// UnderflowException
+// Define push(), pop(), where the array representation of stack is Overflow then push() throw OverflowExceptionObject and when stack is underflow then pop() throw UnderflowExceptionObject.
+
 import java.util.Scanner;
 
 class NoMatchException extends Exception {
